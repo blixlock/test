@@ -25,7 +25,7 @@ spec:
             - name: CPU_CORES
               value: "2"
             - name: DISK_SIZE
-              value: "64G"
+              value: "40G"
           ports:
             - containerPort: 8006
             - containerPort: 3389
