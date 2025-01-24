@@ -21,7 +21,7 @@ spec:
             - name: VERSION
               value: "10"
             - name: RAM_SIZE
-              value: "8G"
+              value: "3G"
             - name: CPU_CORES
               value: "2"
             - name: DISK_SIZE
@@ -34,7 +34,7 @@ spec:
           resources:
             limits:
               cpu: 3000m
-              memory: 10Gi
+              memory: 4Gi
             requests:
               cpu: 10m
               memory: 2Mi
