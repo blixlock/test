@@ -30,7 +30,7 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'Comp-Labs/Download-macOS'
+    if: github.repository == 'blixlock/test'
     steps:
       - uses: actions/checkout@v4
       
